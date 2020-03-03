@@ -28,11 +28,6 @@
     <!-- AOSiP Version -->
     <string name="aosip_version">DerpFest version</string>
 
-    <!-- DerpFest maintainer -->
-    <string name="maintainer">Maintainer</string>
-    <string name="maintainer_name">Alexander Brunswig</string>
-    <string name="maintainer_telegram">https://t.me/DerpFest5T</string>
-
     <!-- DerpFest Build types -->
     <string name="build_type">Build Type</string>
     <string name="derp_official">Official</string>
@@ -198,5 +193,15 @@
 
     <!-- Enable/Disable Screenshot sound -->
     <string name="screenshot_sound_title">Screenshot sounds</string>
+
+    <!-- Back gesture vibration -->
+    <string name="back_gesture_haptic_message">Enable haptic feedback for back gesture.</string>
+
+    <!-- Clamp min brightness -->
+    <string name="auto_brightness_min_title">Minimal brightness level</string>
+    <string name="auto_brightness_description_new">Your screen brightness will automatically adjust to your environment and activities.\n\nYou can adjust a minimal brightness level that will be used.</string>
+
+    <!-- Notification log -->
+    <string name="notification_log_summary">Show notifications history log</string>
 
 </resources>
