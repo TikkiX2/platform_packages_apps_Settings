@@ -130,6 +130,12 @@
         android:fragment="com.android.settings.display.DisplayCutoutForceFullscreenSettings"
         settings:controller="com.android.settings.display.DisplayCutoutForceFullscreenPreferenceController" />
 
+    <Preference
+        android:key="cutout_settings"
+        android:title="@string/cutout_main"
+        android:summary="@string/cutout_main_summary"
+        android:fragment="com.android.settings.display.CutoutFragment" />
+
     <ListPreference
         android:key="theme"
         android:title="@string/device_theme"
@@ -196,21 +202,20 @@
             settings:searchable="false"/>
 
         <ListPreference
+            android:key="android.theme.customization.accent_color"
+            android:title="@string/theme_customization_accent_color_title"/>
+        <ListPreference
             android:key="android.theme.customization.primary_color"
             android:title="@string/theme_customization_primary_color_title"/>
-
         <ListPreference
             android:key="android.theme.customization.font"
             android:title="@string/theme_customization_font_title"/>
-
         <ListPreference
             android:key="android.theme.customization.adaptive_icon_shape"
             android:title="@string/theme_customization_icon_shape_title"/>
-
         <ListPreference
             android:key="android.theme.customization.icon_pack.android"
             android:title="@string/theme_customization_sysui_icon_title"/>
-
     </PreferenceCategory>
 
 </PreferenceScreen>
